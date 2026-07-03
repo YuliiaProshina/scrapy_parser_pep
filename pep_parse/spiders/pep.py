@@ -21,4 +21,3 @@ class PepSpider(scrapy.Spider):
             name=name,
             status=status,
         )
-

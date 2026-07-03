@@ -26,4 +26,3 @@ class PepParsePipeline:
             for status, count in self.statuses.items():
                 file.write(f'{status},{count}\n')
             file.write(f'Total,{total}\n')
-
